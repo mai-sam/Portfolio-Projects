@@ -1,0 +1,111 @@
+body {
+font-family : Arial, Helvetica, sans-serif;
+line-height : 1.5;
+padding : 0;
+margin : 0;
+background-color : #DDD1C7;
+}
+.container {
+width : 80%;
+margin : auto;
+overflow : hidden;
+}
+ul {
+margin : 0;
+padding : 0;
+}
+header {
+background : #35424a;
+color : #ffffff;
+padding-top : 30px;
+min-height : 70px;
+}
+header a {
+color : #ffffff;
+text-decoration : none;
+font-size : 16px;
+}
+.header {
+font-size : 35px;
+}
+header li {
+float : left;
+display : inline;
+padding : 0 20px 0 20px;
+}
+.logo-image {
+height : 100px;
+width : 80px;
+margin-bottom : 10px;
+}
+header #logo h1 {
+margin : 0;
+}
+header nav {
+float : right;
+margin-top : 35px;
+}
+header .highlight, header .current a {
+font-weight : bold;
+color : #CFC0BD;
+}
+header a:hover {
+color : #000000;
+font-weight : bold;
+}
+.heading {
+text-align : center;
+color : white;
+background-color : #35424a;
+position : absolute;
+top: 300px;
+opacity : 0.9;
+padding : 0.25em;
+border-radius : 2px;
+margin : 0 0 20px 10px;
+}
+.backgroundimage {
+height : 650px;
+background-image : url(https://pellatechnology.com/wp-content/uploads/2018/08/conference-table-meeting-newspapers-laptop-pella-technology.jpg);
+background-size : cover;
+background-repeat : no-repeat;
+}
+.intro {
+text-align : center;
+}
+#boxes {
+margin-top : 20px;
+}
+#boxes .box {
+float : left;
+text-align : center;
+width : 30%;
+padding : 10px;
+}
+#boxes .box img {
+width : 200px;
+height : 150px;
+}
+.wrapper {
+border : #FFF solid 5px;
+width : 600px;
+height : 700px;
+color : #FFF;
+margin : 200px auto 100px auto;
+padding : 20px;
+}
+footer {
+padding : 20px;
+color : #ffffff;
+background-color : #35424a;
+text-align : center;
+}
+.icons img {
+width : 40px;
+height : 40px;
+margin-left : 20px;
+margin-right : 20px;
+}
+.footerfont {
+font-size : 25px;
+}

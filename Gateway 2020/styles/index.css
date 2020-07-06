@@ -1,0 +1,108 @@
+body {
+font-family : Arial, Helvetica, sans-serif;
+line-height : 1.5;
+padding : 0;
+margin : 0;
+background-color : #ddd1c7;
+}
+.container {
+width : 80%;
+margin : auto;
+overflow : hidden;
+}
+ul {
+margin : 0;
+padding : 0;
+}
+header {
+background-color : #35424a;
+padding-top : 30px;
+min-height : 70px;
+color : #ffffff;
+
+}
+header a {
+color : #ffffff;
+text-decoration : none;
+font-size : 16px;
+}
+.header {
+font-size : 35px;
+}
+header li {
+float : left;
+display : inline;
+padding : 0 20px 0 20px;
+}
+.logo-image {
+height : 100px;
+width : 80px;
+margin-bottom : 10px;
+}
+header #logo h1 {
+margin : 0;
+}
+header nav {
+float : right;
+margin-top : 35px;
+}
+header .highlight, header .current a {
+font-weight : bold;
+color : #cfc0bd;
+}
+header a:hover {
+color : #000000;
+font-weight : bold;
+}
+h1 {
+font-size : 60px;
+text-shadow : 2px 2px #000000;
+margin-bottom : 50px;
+margin-top: 0px;
+}
+.intro {
+font-size : 20px;
+color : #ffffff;
+text-shadow : 2px 2px #000000;
+}
+#showcase {
+min-height : 400px;
+background-image : linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(https://i.imgur.com/LXwsgLZ.jpg);
+text-align : center;
+color : #ffffff;
+}
+#boxes {
+margin-top : 20px;
+}
+#boxes .box {
+float : left;
+text-align : center;
+width : 30%;
+padding : 10px;
+}
+#boxes .box img {
+width : 100px;
+}
+.wrapper {
+border : #FFF solid 5px;
+width : 600px;
+height : 700px;
+color : #FFF;
+margin : 200px auto 100px auto;
+padding : 20px;
+}
+footer {
+padding : 20px;
+color : #ffffff;
+background-color : #35424a;
+text-align : center;
+}
+.icons img {
+width : 40px;
+height : 40px;
+margin-left : 20px;
+margin-right : 20px;
+}
+.footerfont {
+font-size : 25px;
+}
